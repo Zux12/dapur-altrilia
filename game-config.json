@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "title": "Dapur Altrilia",
+  "hospital": "Altrilia Lyra Legacy Hospital",
+  "maxPlayers": 4,
+  "startingCoins": 300,
+  "maxItems": 60,
+  "recipes": [
+    {"id":"nasi","name":"Nasi Goreng","ingredients":["nasi","telur","kecap","bumbu"],"seconds":15,"reward":60},
+    {"id":"mie","name":"Mie Goreng","ingredients":["mie","telur","sayuran","kecap"],"seconds":20,"reward":75},
+    {"id":"capcay","name":"Capcay","ingredients":["sayuran","ayam","bawang_putih","saus"],"seconds":20,"reward":80},
+    {"id":"bihun","name":"Bihun Goreng","ingredients":["bihun","telur","sayuran","bumbu"],"seconds":25,"reward":90},
+    {"id":"ayam","name":"Ayam Kecap","ingredients":["ayam","kecap","bawang","bumbu"],"seconds":30,"reward":110}
+  ],
+  "ingredients":{"nasi":"Nasi","telur":"Telur","kecap":"Kecap manis","bumbu":"Bumbu","mie":"Mie","sayuran":"Sayuran","ayam":"Ayam","bawang_putih":"Bawang putih","saus":"Saus","bihun":"Bihun","bawang":"Bawang"},
+  "shop":[
+    {"id":"flowers","name":"Petak bunga","price":30,"radius":0.6,"category":"Taman","description":"Bunga warna-warni untuk menghias pulau."},
+    {"id":"tree","name":"Pohon peneduh","price":120,"radius":0.9,"category":"Taman","description":"Pohon rindang dengan daun yang bergerak lembut."},
+    {"id":"apple","name":"Pohon apel","price":250,"radius":0.9,"category":"Taman","description":"Panen 20 KA setiap 15 menit. Maksimum satu panen tersimpan.","harvestSeconds":900,"harvestReward":20},
+    {"id":"bench","name":"Bangku taman","price":100,"radius":1.0,"category":"Bangunan","description":"Bangku kayu untuk duduk menikmati laut."},
+    {"id":"lamp","name":"Lampu taman","price":60,"radius":0.4,"category":"Taman","description":"Lampu kecil untuk mempercantik taman."},
+    {"id":"cow","name":"Sapi","price":700,"radius":1.25,"category":"Hewan","description":"Sapi ramah berkeliaran dekat tempatnya. Beri makan gratis; panen susu 30 KA setiap 20 menit.","harvestSeconds":1200,"harvestReward":30},
+    {"id":"treehouse","name":"Rumah pohon","price":1500,"radius":3.2,"category":"Bangunan","description":"Pohon, tangga, balkon, dan ruangan yang bisa dimasuki."}
+  ],
+  "islandCenters":[[-42,32],[-14,45],[14,45],[42,32]],
+  "tables":[[-6,-1],[0,-1],[6,-1],[-6,3],[0,3],[6,3]],
+  "stoves":[[-7.5,8],[-2.5,8],[2.5,8],[7.5,8]],
+  "courtyardSpawn":[0,-16],
+  "hospitalPortal":[7,-14]
+}
